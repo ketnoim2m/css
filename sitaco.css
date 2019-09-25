@@ -1,3 +1,24 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@ketnoim2m 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+0
+00ketnoim2m/css
+ Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights Settings
+css/sitaco.css
+@ketnoim2m ketnoim2m Rename sitaco to sitaco.css
+ebbf44d 2 minutes ago
+2642 lines (2479 sloc)  73.3 KB
+  
 @charset "UTF-8";
 .vertical-alignment-helper {
   display: table;
@@ -262,13 +283,13 @@ body {
   -moz-box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 26px 7px rgba(0, 0, 0, 0.3); }
   .site-nav .menu-bar {
-    height: 79px;
-    line-height: 79px; }
+    height: 168px;
+    line-height: 92px;}
     .site-nav .menu-bar .logo {
-      background-position: 50% 56%;
-      margin: 0 0 0 4px;
-      height: 79px;
-      display: inline-block; }
+    background-position: 16% 0%;
+    margin: 0 0 0 0px;
+    height: 106%;
+    display: inline-block; }
     .site-nav .menu-bar-icon {
       display: inline-block;
       width: 79px;
@@ -288,7 +309,7 @@ body {
   .site-nav .logo {
     background: url(https://i.imgur.com/tGydZf7.png) no-repeat;
     display: inline-block;
-    width: 142px;
+    width: 194px;
     height: 32px;
     margin: 25px auto; }
   .site-nav .menu-item-wrapper {
@@ -2639,3 +2660,15 @@ body.page-about #history .timeline td .timeline-date {
     display: none; } }
 
 /*# sourceMappingURL=style.css.map */
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
