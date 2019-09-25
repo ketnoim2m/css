@@ -2301,7 +2301,7 @@ body.page-about #history .timeline td .timeline-date {
       height: 56px !important;
       line-height: 56px !important; }
       .site-nav .menu-bar .logo {
-        height: 56px !important; }
+        height: 0px !important; }
 
   h2.page-title,
   #about-us h1.page-title {
