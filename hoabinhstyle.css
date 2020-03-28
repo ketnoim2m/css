@@ -791,7 +791,10 @@ html .section-form   input[type=date] {
     width: 100%;
 }
 .section-form  .wpcf7-form-m2m {
+    display: inline-block;
     height: 40px;
+    position: relative;
+    width: 100%;
 }
 
 .section-form  textarea{
