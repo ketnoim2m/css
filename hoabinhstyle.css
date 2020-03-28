@@ -796,6 +796,8 @@ html .section-form   input[type=date] {
 
 .section-form  textarea{
     height: 60px;
+    width: 100%;
+	    
  } 
 
 
