@@ -50,10 +50,11 @@
 }
 
 .pricing-container .features {
-  list-style: none;
-  font-size: 20px;
-  padding: 0;
-  color: #131313;
+    list-style: none;
+    font-size: 13px;
+    padding: 0 10% 0;
+    text-align: left;
+    color: #03550a;
 }
 
 .pricing-container .features li {
