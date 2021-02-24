@@ -1,0 +1,20 @@
+ window.onload = function() {
+  var par = $('.galleryRightBottomRow:last-child');
+  var img = $('.galleryRightBottomRow:last-child img:last-child');
+  var layer = $('<div>+5</div>');
+  layer.css({
+    'position': 'relative',
+    'left': img.offset().left - par.offset().left,
+    'top': '-' + img.outerHeight() + 'px',
+    'width': img.outerWidth(),
+    'height': img.outerHeight(),
+    'display': 'block',
+    'background-color': 'rgba(0, 0, 0, 0.7)',
+    'color': '#fff',
+    'font-size': '3rem',
+    'line-height': img.outerHeight() + 'px',
+    'text-align': 'center',
+    'cursor': 'pointer'
+  });
+  img.after(layer);
+};  
