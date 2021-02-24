@@ -22,8 +22,8 @@ body {
 .gallery {
   height: calc(100vh - 4rem);
   position: relative;
-  width: 102%;
-  left: -90px;
+  width: 89%;
+  left: -18px;
 }
 
 .gallery > div {
