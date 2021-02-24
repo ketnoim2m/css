@@ -37,14 +37,6 @@ body {
   max-height: 100%;
   vertical-align: top;
 }
-
-.galleryLeft {
-  width: 66.67%;
-  height: 100%;
-  padding-right: 0.5rem;
-}
-
-.galleryButtonLeft,
 .galleryButtonRight {
   position: absolute;
   left: 0;
@@ -68,10 +60,7 @@ body {
 }
 
 .galleryRight {
-  width: 33.33%;
-  height: 100%;
-  padding-left: 0.5rem;
-  left: 66.66%;
+  left: 39.6%;
 }
 
 .galleryRightTop {
