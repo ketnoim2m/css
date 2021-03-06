@@ -74,10 +74,10 @@ header .nav > ul{background:url(img/h-nav-bg-right.png) no-repeat right;padding:
 .footer .copyright.right a{color:#fff}
 .four-cols{width:100%}
 .home.vmzwrap .four-cols{background:url(img/line.png) no-repeat bottom;padding-bottom:20px}
-.vmzwrap .four-cols .col{    width: 22.5%;
+.vmzwrap .four-cols .col{    width: 28.5%;
     float: left;
     height: 335px;}
-.vmzwrap .four-cols .col:not(:last-child){margin-right:2%}
+.vmzwrap .four-cols .col:not(:last-child){margin-right:5%}
 #footer .four-cols .col{width:50%;float:left;color:#fff;background:none}
 #footer .four-cols .col:first-child{width:48%;background:url(img/ad-icon.png) no-repeat 0 43px}
 .four-cols .col h2{font-size:13px;text-transform:uppercase}
