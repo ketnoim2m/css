@@ -14,8 +14,10 @@ input:focus{outline:0;border:1px solid #04A4CC}
 /*------------------------------------*\
     STRUCTURE
 \*------------------------------------*/
- @media only screen and (max-width:479px){.vmzwrap {margin: 0 auto;width:100%;}
-     .vmzwrap .four-cols .col {width: 100%;}
+ @media only screen and (max-width:479px){
+    .vmzwrap{margin: 0 auto;width:100%;}
+    .vmzwrap .four-cols .col{width: 100%;float: left;height: 519px;}
+ 
 }
 /* wrapper */
 .wrapper{margin:20px auto;position:relative;width:1000px;box-shadow:0 2px 5px #999;border-radius:4px;overflow:hidden;background:#fff}
