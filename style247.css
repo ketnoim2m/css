@@ -67,6 +67,8 @@ header .nav > ul{background:url(img/h-nav-bg-right.png) no-repeat right;padding:
 #text-9 h2{margin:0;padding:0;font-size:18px;font-weight:normal}
 #text-9 p{margin:0}
 /*FOOTER*/
+.vmzwrap .four-cols .col{width: 22.5%; float: left;height: 335px;}
+.vmzwrap .four-cols .col:not(:last-child){margin-right:2%}
 .four-cols{width:100%}
 .home.vmzwrap .four-cols{background:url(img/line.png) no-repeat bottom;padding-bottom:20px}
 .vmzwrap .four-cols .col{width: 26.5%;float: left;height: 335px;}
