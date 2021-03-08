@@ -18,6 +18,9 @@ input:focus{outline:0;border:1px solid #04A4CC}
 .vmzwrap {margin: 0 auto;width:100%;}
 }
 
+@media only screen and (max-width:680px){
+.vmzwrap .four-cols .col{width: 100%;float: left;height: 335px;}
+}
 /* wrapper */
 .wrapper{margin:20px auto;position:relative;width:1000px;box-shadow:0 2px 5px #999;border-radius:4px;overflow:hidden;background:#fff}
 .vmzwrap{margin:0 auto;width:980px}
@@ -64,7 +67,6 @@ header .nav > ul{background:url(img/h-nav-bg-right.png) no-repeat right;padding:
 #text-9 h2{margin:0;padding:0;font-size:18px;font-weight:normal}
 #text-9 p{margin:0}
 /*FOOTER*/
-@media only screen and (max-width:768px){.vmzwrap .four-cols .col{width: 100%;float: left;height: 335px;}}
 .four-cols{width:100%}
 .home.vmzwrap .four-cols{background:url(img/line.png) no-repeat bottom;padding-bottom:20px}
 .vmzwrap .four-cols .col{width: 26.5%;float: left;height: 335px;}
