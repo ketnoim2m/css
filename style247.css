@@ -14,7 +14,16 @@ input:focus{outline:0;border:1px solid #04A4CC}
 /*------------------------------------*\
     STRUCTURE
 \*------------------------------------*/
-
+@media only screen and (max-width:479px){
+.vmzwrap .four-cols .col{float: left;height:335px;}
+.vmzwrap {margin: 0 auto;width:100%;}
+.vmzwrap .four-cols .col{float:left;height:335px;}
+}
+@media only screen and (max-width:768px){
+.vmzwrap .four-cols .col{float: left;height:335px;}
+.vmzwrap {margin: 0 auto;width:100%;}
+.vmzwrap .four-cols .col{float:left;height:335px;}
+} 
 /* wrapper */
 .wrapper{margin:20px auto;position:relative;width:1000px;box-shadow:0 2px 5px #999;border-radius:4px;overflow:hidden;background:#fff}
 .vmzwrap{margin:0 auto;width:980px}
@@ -186,12 +195,7 @@ hr{-moz-border-bottom-colors:none;-moz-border-left-colors:none;-moz-border-right
 /*------------------------------------*\
     PRINT
 \*------------------------------------*/
-@media only screen and (max-width:479px){
-.vmzwrap .four-cols .col {float: left;height: 335px;}
-.vmzwrap {margin: 0 auto;width: 100%;}
-    .vmzwrap .four-cols .col {float: left;height: 335px;}
-}
-    
+   
 /*-------------------------------------------
     Carousel
 -------------------------------------------
