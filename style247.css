@@ -16,7 +16,6 @@ input:focus{outline:0;border:1px solid #04A4CC}
 \*------------------------------------*/
    @media only screen and (max-width:479px){
 .vmzwrap {margin: 0 auto;width:100%;}
-.vmzwrap .four-cols .col {width: 100%;float: left;height: 335px;}
 }
 
 /* wrapper */
@@ -65,11 +64,12 @@ header .nav > ul{background:url(img/h-nav-bg-right.png) no-repeat right;padding:
 #text-9 h2{margin:0;padding:0;font-size:18px;font-weight:normal}
 #text-9 p{margin:0}
 /*FOOTER*/
+   @media only screen and (max-width:479px){
+.vmzwrap .four-cols .col {width: 100%;float: left;height: 335px;}
+}
 .four-cols{width:100%}
 .home.vmzwrap .four-cols{background:url(img/line.png) no-repeat bottom;padding-bottom:20px}
-.vmzwrap .four-cols .col{    width: 26.5%;
-    float: left;
-    height: 335px;}
+.vmzwrap .four-cols .col{width: 26.5%;float: left;height: 335px;}
 .vmzwrap .four-cols .col:not(:last-child){margin-right:5%}
 #footer .four-cols .col{width:50%;float:left;color:#fff;background:none}
 #footer .four-cols .col:first-child{width:48%;background:url(img/ad-icon.png) no-repeat 0 43px}
